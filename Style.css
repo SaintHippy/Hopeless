@@ -1,0 +1,45 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+
+p {
+  
+}
+
+.roundBox {
+   background-color: darkgrey;
+
+}
+
+.boxToggle {
+  color: white;
+}
+
+.boxInput {
+  background-color: darkgrey;
+
+}
+
+#6 {
+  background-color: black;
+}
+
+#5 {
+  background-color: rgb(50, 50, 50);
+}
+
+#4 {
+  background-color:rgb(100, 100, 100);
+}
+
+#3 {
+  background-color: rgb(140, 140, 140);
+}
+
+#2 {
+  background-color: rgb(190, 190, 190);
+}
+
+#1 {
+  background-color: white;
+}
