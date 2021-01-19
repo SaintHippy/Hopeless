@@ -12,7 +12,7 @@ p {
 }
 
 .boxToggle {
-  color: white;
+  
 }
 
 .boxInput {
@@ -20,26 +20,26 @@ p {
 
 }
 
-#6 {
+p #6 {
   background-color: black;
 }
 
-#5 {
+p #5 {
   background-color: rgb(50, 50, 50);
 }
 
-#4 {
+p #4 {
   background-color:rgb(100, 100, 100);
 }
 
-#3 {
+p #3 {
   background-color: rgb(140, 140, 140);
 }
 
-#2 {
+p #2 {
   background-color: rgb(190, 190, 190);
 }
 
-#1 {
+p #1 {
   background-color: white;
 }
