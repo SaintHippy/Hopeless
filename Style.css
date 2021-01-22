@@ -26,7 +26,11 @@ input {
   width: 600px;
 }
 
-  #six {
+.credText {
+  height: 20px;
+}
+
+#six {
   color: white;
   background-color: black;
 }
@@ -57,33 +61,53 @@ input {
 #nameInput {
   height: 25%;
   width: 30%;
-  padding: 10px;
+  padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
   display: block;
 }
 
-#raceInput {
+#raceInput,
+#positioning,
+#actionRes,
+#dangerRes,
+#harmRes,
+#stressRes {
   height: 25%;
   width: 30%;
-  padding: 10px;
+  padding: 10px 10px;
+  border: 1px solid black;
   border-radius: 20px;
-  display: block;
-}
+  display: block;}
 
 #stress {
   height: 25%;
   width: 10%;
-  padding: 10px;
+  padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
   display: block;
 }
 
 #inventory {
+  height: 25%;
+  width: 45%;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
   display: block;
 }
 
 #equipped {
   display: block;
 }
+
+#credits {
+  height: 15%;
+  width: 20%;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: block;
+}
+

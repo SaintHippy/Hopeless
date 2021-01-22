@@ -62,64 +62,72 @@
 
 
   <div class="roundBox" id="credits">
-    <label id="credits" for="credits">Credits: $</label>
-    <input type="text" id="credits"><br>
+    <label id="creds" for="creds">Credits: $</label>
+    <input class="credText" type="text" id="creds">
   </div>
 
   <div class="boxToggle" id="positioning">
     <h3>Positioning</h3>
     <label for="good">Good</label>
-    <input type="radio" id="good" name="positioning" value="good"><br>
+    <input class="radButt" type="radio" id="good" name="positioning" value="good"><br>
     <label for="standard">Standard</label>
-    <input type="radio" id="standard" name="positioning" value="standard"><br>
+    <input class="radButt" type="radio" id="standard" name="positioning" value="standard"><br>
     <label for="bad">Bad</label>
-    <input type="radio" id="bad" name="positioning" value="bad"><br>     
+    <input class="radButt" type="radio" id="bad" name="positioning" value="bad"><br>     
   </div>
 
-  <div class="boxInput" id="ActionRes">
+  <div class="boxInput" id="actionRes">
     <h2>Action Resolution</h2>
       <h3>Action</h3>
         <h3>Result:</h3>
          <label for="resFail">1-2:</label>
-         <input type="radio" id="resFail" name="Action" value="Fail">
+         <input class="radButt" type="radio" id="resFail" name="Action" value="Fail">
          <label for="resFail">Fail</label><br>
          <label for="resProg">3-4:</label>
-         <input type="radio" id="resProg" name="Action" value="Progress">
+         <input class="radButt" type="radio" id="resProg" name="Action" value="Progress">
          <label for="resProg">Progress</label><br>
          <label for="resSucc">5-6:</label>
-         <input type="radio" id="resSucc" name="Action" value="Succeed">
+         <input class="radButt" type="radio" id="resSucc" name="Action" value="Succeed">
          <label for="resSucc">Succeed </label><br>
+  </div>
+
+  <div class="boxInput" id="dangerRes">
       <h3>Danger</h3>
         <h3>Result:</h3>
           <label for="resReal">1-3:</label>
-          <input type="radio" id="resReal">
+          <input class="radButt" type="radio" id="resReal">
           <label for="resReal">Realised</label><br><br>
           <label for="resAvoid">4-6:</label>
-          <input type="radio" id="resAvoid">
+          <input class="radButt" type="radio" id="resAvoid">
           <label for="resAvoid">Avoided</label><br>
+  </div>
+
+  <div class="boxInput" id="stressRes">
       <h3>Stress</h3>
         <h3>Result:</h3>
           <label for="resPanic">1-2:</label>
-          <input type="radio" id="resPanic">
+          <input class="radButt" type="radio" id="resPanic">
           <label for="resPanic">Panic Test</label><br>
           <label for="resStress">3-4:</label>
-          <input type="radio" id="resStress">
+          <input class="radButt" type="radio" id="resStress">
           <label for="resStress">+1 Stress</label><br>
           <label for="resFine">5-6:</label>
-          <input type="radio" id="resFine">
+          <input class="radButt" type="radio" id="resFine">
           <label for="resFine">Fine</label><br>
+  </div>
+
+  <div class="boxInput" id="harmRes">
       <h3>Harm</h3>
         <h3>Result:</h3>
           <label for="resInj">1-2:</label>
-          <input type="radio" id="resInj">
+          <input class="radButt" type="radio" id="resInj">
           <label for="resInj">Injured</label><br>
           <label for="resCond">3-5:</label>
-          <input type="radio" id="resCond">
+          <input class="radButt" type="radio" id="resCond">
           <label for="resCond">Condition</label><br>
           <label for="resFine">  6:  </label>
-          <input type="radio" id="resFine">
+          <input class="radButt" type="radio" id="resFine">
           <label for="resFine">Fine</label>
-
-  </div>  
+    </div>  
 </body>
 </html>
