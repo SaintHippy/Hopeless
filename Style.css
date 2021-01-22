@@ -2,44 +2,72 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 
-p {
-  
+input {
+  background-color: burlywood;
 }
 
 .roundBox {
-   background-color: darkgrey;
-
+   background-color: lightgray;
 }
 
 .boxToggle {
+  background-color: black;
+  color: white;
   
 }
 
 .boxInput {
-  background-color: darkgrey;
+  background-color: lightgray;
 
 }
-
-p #6 {
+#six {
+  color: white;
   background-color: black;
 }
 
-p #5 {
+#five {
+  color: white;
   background-color: rgb(50, 50, 50);
 }
 
-p #4 {
+#four {
+  color: white;
   background-color:rgb(100, 100, 100);
 }
 
-p #3 {
+#three {
+  color: white;
   background-color: rgb(140, 140, 140);
 }
 
-p #2 {
+#two {
   background-color: rgb(190, 190, 190);
 }
 
-p #1 {
+#one {
   background-color: white;
+}
+
+#nameInput {
+  float: left;
+  display: inline-block;
+}
+
+#raceInput {
+  float: right;
+  display: block;
+}
+
+#stress {
+  float: left ;
+  display: inline-block;
+}
+
+#inventory {
+  float: left;
+  display: block;
+}
+
+#equipped {
+  display: block;
 }
