@@ -1,5 +1,6 @@
 body {
   font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
 }
 
 input {
@@ -18,9 +19,14 @@ input {
 
 .boxInput {
   background-color: lightgray;
-
 }
-#six {
+
+.invText {
+  height: 20px;
+  width: 600px;
+}
+
+  #six {
   color: white;
   background-color: black;
 }
@@ -49,22 +55,32 @@ input {
 }
 
 #nameInput {
-  float: left;
-  display: inline-block;
+  height: 25%;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: block;
 }
 
 #raceInput {
-  float: right;
+  height: 25%;
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
   display: block;
 }
 
 #stress {
-  float: left ;
-  display: inline-block;
+  height: 25%;
+  width: 10%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: block;
 }
 
 #inventory {
-  float: left;
   display: block;
 }
 
