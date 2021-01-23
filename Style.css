@@ -7,6 +7,14 @@ input {
   background-color: burlywood;
 }
 
+.playerData {
+  display: flex;
+}
+
+.layerTwo {
+  display: flex;
+}
+
 .roundBox {
    background-color: lightgray;
 }
@@ -18,7 +26,10 @@ input {
 }
 
 .boxInput {
+  padding: 10px 10px;
   background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 .invText {
@@ -28,6 +39,19 @@ input {
 
 .credText {
   height: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.equipped {
+  height: 10%;
+  width: 40%;
+}
+
+.resolutions {
+  display: flex;
 }
 
 #six {
@@ -64,29 +88,25 @@ input {
   padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
-  display: block;
+  display: inline-block;
 }
 
-#raceInput,
-#positioning,
-#actionRes,
-#dangerRes,
-#harmRes,
-#stressRes {
+#raceInput {
   height: 25%;
   width: 30%;
   padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
-  display: block;}
+  display: inline-block;
+}
 
 #stress {
   height: 25%;
-  width: 10%;
+  width: 5%;
   padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
-  display: block;
+  display: inline-block;
 }
 
 #inventory {
@@ -95,11 +115,11 @@ input {
   padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
-  display: block;
+  display: inline-block;
 }
 
 #equipped {
-  display: block;
+  display: inline-block;
 }
 
 #credits {
@@ -108,6 +128,25 @@ input {
   padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
-  display: block;
+ display: ;
 }
 
+#actionRes,
+#dangerRes,
+#harmRes,
+#stressRes {
+  height: 25%;
+  width: 25%;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+#positioning {
+  height: 10%;
+  width: 100%;
+  padding: 5px 5px;
+  border-radius: 20px;
+  display: block;
+}
