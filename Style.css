@@ -7,6 +7,14 @@ input {
   background-color: burlywood;
 }
 
+div {
+  background-color: lightgray;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+
+}
+
 .playerData {
   display: flex;
 }
@@ -15,26 +23,9 @@ input {
   display: flex;
 }
 
-.roundBox {
-   background-color: lightgray;
-}
-
-.boxToggle {
-  background-color: black;
-  color: white;
-  
-}
-
-.boxInput {
-  padding: 10px 10px;
-  background-color: lightgray;
-  border: 1px solid black;
-  border-radius: 20px;
-}
-
 .invText {
   height: 20px;
-  width: 600px;
+  width: auto;
 }
 
 .credText {
@@ -128,7 +119,6 @@ input {
   padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
- display: ;
 }
 
 #actionRes,
@@ -149,4 +139,5 @@ input {
   padding: 5px 5px;
   border-radius: 20px;
   display: block;
+  text-align: center;
 }
