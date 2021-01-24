@@ -11,14 +11,14 @@
   <h1 class="centred">Hopeless: Character Sheet</h1>
 
   <div class="playerData">
-    <div class="roundBox" id="nameInput">
+    <div id="nameInput">
       <label for="name">Name:      </label>
       <input type="text" id="name"><br>
       <label for="Background">Background:</label>
       <input type="text" id="Background"><br>
     </div>
 
-    <div class="boxToggle" id="raceInput">
+    <div id="raceInput">
       <label for="human">Human</label>
       <input type="radio" id="race" name="race" value="human"><br>
       <label for="augmented">Augmented</label>
@@ -29,7 +29,7 @@
   </div>
 
   <div class="layerTwo">
-    <div class="roundBox" id="stress">
+    <div class="grey" id="stress">
       <h3>Stress:</h3>
        <label id="six" for="6">6</label>
         <input type="radio" id="six" name="stress" value="6"><br>
@@ -45,7 +45,7 @@
         <input type="radio" id="one" name="stress" value="1"><br>
     </div>
  
-    <div class="boxInput" id="inventory">
+    <div claass="grey" id="inventory">
       <h2>Inventory</h2>
         <label id="inv_1" for="inv_1">1</label>
         <input class="invText" type="text" id="inv_1"><br>
@@ -61,7 +61,7 @@
         <input class="invText" type="text" id="inv_6"><br>
     </div>
 
-    <div class="equipped boxInput">
+    <div class="grey" id="equipped">
       <label id="equipHand1" for="equipHand1">Main hand:</Label>
       <input class="invText" type="text" id="equipHand1"><br>
       <label id="equipHand2" for="equipHand2">Off hand:</Label>
@@ -72,13 +72,13 @@
       <input class="invText" type="text" id="equipBody2"><br>
     </div>
   
-    <div class="roundBox" id="credits">
+    <div id="credits grey">
       <label id="creds" for="creds">Credits: $</label>
       <input class="credText" type="text" id="creds">
     </div>
   </div>
 
-  <div class="boxToggle" id="positioning">
+  <div id="positioning grey">
     <h3 class="centred">Positioning</h3>
       <label for="good">Good</label>
       <input class="radButt" type="radio" id="good" name="positioning" value="good">
@@ -88,10 +88,10 @@
       <input class="radButt" type="radio" id="bad" name="positioning" value="bad">   
   </div>
 
-<div class="boxInput resolutions">
+<div class="resolutions box grey">
   <h2>Action Resolution</h2>
     
-  <div class="boxInput resolutions" id="actionRes">
+  <div class= "resolutions" id="actionRes">
     <h3>Action</h3>
       <h3>Result:</h3>
         <label for="resFail">1-2:</label>
@@ -105,7 +105,7 @@
         <label for="resSucc">Succeed </label>
     </div>
 
-    <div class="boxInput" id="dangerRes">
+    <div id="dangerRes">
       <h3>Danger</h3>
         <h3>Result:</h3>
           <label for="resReal">1-3:</label>
@@ -116,7 +116,7 @@
           <label for="resAvoid">Avoided</label>
     </div>
 
-    <div class="boxInput" id="stressRes">
+    <div id="stressRes">
       <h3>Stress</h3>
         <h3>Result:</h3>
           <label for="resPanic">1-2:</label>
@@ -130,7 +130,7 @@
           <label for="resFine">Fine</label>
     </div>
 
-    <div class="boxInput" id="harmRes">
+    <div id="harmRes">
         <h3>Harm</h3>
           <h3>Result:</h3>
             <label for="resInj">1-2:</label>

@@ -7,12 +7,8 @@ input {
   background-color: burlywood;
 }
 
-div {
+.grey {
   background-color: lightgray;
-  padding: 10px 10px;
-  border: 1px solid black;
-  border-radius: 20px;
-
 }
 
 .playerData {
@@ -93,14 +89,15 @@ div {
 
 #stress {
   height: 25%;
-  width: 5%;
+  width: 7%;
   padding: 10px 10px;
   border: 1px solid black;
   border-radius: 20px;
   display: inline-block;
 }
 
-#inventory {
+#inventory,
+#equipped {
   height: 25%;
   width: 45%;
   padding: 10px 10px;
@@ -109,9 +106,6 @@ div {
   display: inline-block;
 }
 
-#equipped {
-  display: inline-block;
-}
 
 #credits {
   height: 15%;
@@ -137,6 +131,7 @@ div {
   height: 10%;
   width: 100%;
   padding: 5px 5px;
+  border: 1px solid black;
   border-radius: 20px;
   display: block;
   text-align: center;
