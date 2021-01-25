@@ -85,9 +85,12 @@ input {
   width: 30%;
 }
 
-#inventory {
+#inventory,
+#equipped {
   width: 40%;
 }
+
+
 
 #topTitle,
 #positioning,
