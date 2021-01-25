@@ -27,11 +27,6 @@ input {
   display: flex;
 }
 
-.invText {
-  height: 20px;
-  width: auto;
-}
-
 .credText {
   height: 20px;
 }
@@ -90,8 +85,7 @@ input {
   width: 30%;
 }
 
-#inventory,
-#equipped {
+#inventory {
   width: 40%;
 }
 
