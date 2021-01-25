@@ -7,6 +7,14 @@ input {
   background-color: burlywood;
 }
 
+.box {
+  height: 25%;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: inline-block;
+}
+
 .grey {
   background-color: lightgray;
 }
@@ -28,17 +36,8 @@ input {
   height: 20px;
 }
 
-.centered {
+.centred {
   text-align: center;
-}
-
-.equipped {
-  height: 10%;
-  width: 40%;
-}
-
-.resolutions {
-  display: flex;
 }
 
 #six {
@@ -69,70 +68,37 @@ input {
   background-color: white;
 }
 
-#nameInput {
-  height: 25%;
-  width: 30%;
-  padding: 10px 10px;
-  border: 1px solid black;
-  border-radius: 20px;
-  display: inline-block;
-}
-
-#raceInput {
-  height: 25%;
-  width: 30%;
-  padding: 10px 10px;
-  border: 1px solid black;
-  border-radius: 20px;
-  display: inline-block;
-}
-
 #stress {
-  height: 25%;
-  width: 7%;
-  padding: 10px 10px;
-  border: 1px solid black;
-  border-radius: 20px;
-  display: inline-block;
+  width: 8%;
+  padding: 10px 15px 15px 10px;
+  text-align: center;
 }
-
-#inventory,
-#equipped {
-  height: 25%;
-  width: 45%;
-  padding: 10px 10px;
-  border: 1px solid black;
-  border-radius: 20px;
-  display: inline-block;
-}
-
 
 #credits {
-  height: 15%;
   width: 20%;
-  padding: 10px 10px;
-  border: 1px solid black;
-  border-radius: 20px;
 }
 
 #actionRes,
 #dangerRes,
 #harmRes,
 #stressRes {
-  height: 25%;
-  width: 25%;
-  padding: 10px 10px;
-  border: 1px solid black;
-  border-radius: 20px;
-  display: inline-block;
+  width: 22%;
 }
 
-#positioning {
-  height: 10%;
+#nameInput,
+#raceInput {
+  width: 30%;
+}
+
+#inventory,
+#equipped {
+  width: 40%;
+}
+
+#topTitle,
+#positioning,
+#resTitle {
   width: 100%;
-  padding: 5px 5px;
-  border: 1px solid black;
-  border-radius: 20px;
-  display: block;
   text-align: center;
 }
+
